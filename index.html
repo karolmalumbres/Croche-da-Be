@@ -1,0 +1,192 @@
+
+<!DOCTYPE html> <!-- Define o tipo do documento como HTML5 -->
+<html lang="pt-BR"> <!-- Inicia o documento HTML com idioma português do Brasil -->
+<head> <!-- Inicia a área de metadados da página -->
+  <meta charset="UTF-8"> <!-- Define codificação UTF-8 para suportar acentos -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Garante responsividade em dispositivos móveis -->
+  <meta name="description" content="Catálogo online Crochê da Be com peças artesanais feitas com amor, energia e alma."> <!-- Descreve a página para SEO -->
+  <title>Crochê da Be | Catálogo Artesanal</title> <!-- Define o título exibido na aba do navegador -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Otimiza conexão com o servidor de fontes do Google -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Otimiza conexão com arquivos de fontes com CORS -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet"> <!-- Importa tipografias delicadas e femininas -->
+  <link rel="icon" href="icon.ico" type="image/x-icon"> <!-- Define o ícone da aba da página -->
+  <link rel="stylesheet" href="estilo.css"> <!-- Vincula o arquivo CSS externo -->
+</head> <!-- Finaliza a área de metadados da página -->
+<body> <!-- Inicia o conteúdo visível da página -->
+  <div class="bg-stars" aria-hidden="true"></div> <!-- Camada decorativa com brilho sutil místico -->
+
+  <header id="inicio" class="header"> <!-- Inicia o cabeçalho com âncora para início -->
+    <div class="container header__content"> <!-- Cria contêiner central para logo e navegação -->
+      <a href="#inicio" class="brand" aria-label="Voltar ao início"> <!-- Cria link da marca para voltar ao topo -->
+        <img src="croche da be.png" alt="Logo da marca Crochê da Be" class="brand__logo"> <!-- Exibe a logo da marca enviada -->
+        <span class="brand__name">Crochê da Be</span> <!-- Exibe o nome textual da marca -->
+      </a> <!-- Finaliza o link da marca -->
+      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">☾</button> <!-- Cria botão de menu para mobile com símbolo místico -->
+      <nav id="menu" class="nav"> <!-- Inicia a navegação principal do site -->
+        <a href="#inicio">Início</a> <!-- Link para seção inicial -->
+        <a href="#catalogo">Catálogo</a> <!-- Link para seção de catálogo -->
+        <a href="#encomendar">Como Encomendar</a> <!-- Link para seção de encomendas -->
+        <a href="#sobre">Sobre a Be</a> <!-- Link para seção sobre a criadora -->
+        <a href="#contato">Contato</a> <!-- Link para seção de contato -->
+      </nav> <!-- Finaliza a navegação principal -->
+    </div> <!-- Finaliza contêiner do cabeçalho -->
+  </header> <!-- Finaliza o cabeçalho -->
+
+  <main> <!-- Inicia o conteúdo principal da página -->
+    <section class="hero reveal"> <!-- Inicia a seção hero com animação de entrada -->
+      <div class="container hero__content"> <!-- Cria contêiner interno da seção hero -->
+        <p class="hero__subtitle">Peças únicas com energia feminina</p> <!-- Exibe subtítulo da proposta da marca -->
+        <h1>Crochês feitos com amor, energia e alma</h1> <!-- Exibe frase de impacto principal -->
+        <p class="hero__text">Descubra criações artesanais inspiradas na magia, cada detalhe feito à mão.</p> <!-- Exibe texto de apoio -->
+        <a href="#catalogo" class="btn btn--primary">Ver Catálogo</a> <!-- Exibe botão de chamada para ação -->
+      </div> <!-- Finaliza contêiner interno da seção hero -->
+    </section> <!-- Finaliza a seção hero -->
+
+    <section id="catalogo" class="section reveal"> <!-- Inicia a seção de catálogo com identificação para navegação -->
+      <div class="container"> <!-- Cria contêiner central da seção -->
+        <h2 class="section__title">Catálogo Encantado</h2> <!-- Exibe título da seção de catálogo -->
+        <div class="catalog-grid"> <!-- Inicia grade responsiva dos cards de produtos -->
+          <article class="card"> <!-- Inicia card de produto -->
+            <img src="https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=900&q=80" alt="Top de crochê terracota" class="card__img"> <!-- Exibe imagem ilustrativa do produto -->
+            <div class="card__body"> <!-- Inicia área de texto do card -->
+              <h3>Top Sol de Verão</h3> <!-- Exibe nome da peça -->
+              <p>Top boho com ponto rendado e toque leve para dias de praia.</p> <!-- Exibe descrição curta da peça -->
+              <div class="card__meta"> <!-- Inicia área de preço e ação -->
+                <span>R$ 149,00</span> <!-- Exibe preço fictício do item -->
+                <button class="btn btn--outline">Encomendar</button> <!-- Exibe botão de encomenda -->
+              </div> <!-- Finaliza área de preço e ação -->
+            </div> <!-- Finaliza área de texto do card -->
+          </article> <!-- Finaliza card de produto -->
+
+          <article class="card"> <!-- Inicia card de produto -->
+            <img src="https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=900&q=80" alt="Bolsa artesanal rosa" class="card__img"> <!-- Exibe imagem ilustrativa do produto -->
+            <div class="card__body"> <!-- Inicia área de texto do card -->
+              <h3>Bolsa Lua Rosa</h3> <!-- Exibe nome da peça -->
+              <p>Bolsa delicada com alça reforçada, perfeita para looks leves.</p> <!-- Exibe descrição curta da peça -->
+              <div class="card__meta"> <!-- Inicia área de preço e ação -->
+                <span>R$ 179,00</span> <!-- Exibe preço fictício do item -->
+                <button class="btn btn--outline">Encomendar</button> <!-- Exibe botão de encomenda -->
+              </div> <!-- Finaliza área de preço e ação -->
+            </div> <!-- Finaliza área de texto do card -->
+          </article> <!-- Finaliza card de produto -->
+
+          <article class="card"> <!-- Inicia card de produto -->
+            <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80" alt="Kimono artesanal bege" class="card__img"> <!-- Exibe imagem ilustrativa do produto -->
+            <div class="card__body"> <!-- Inicia área de texto do card -->
+              <h3>Kimono Brisa Dourada</h3> <!-- Exibe nome da peça -->
+              <p>Kimono com trama fluida para sobreposição elegante e confortável.</p> <!-- Exibe descrição curta da peça -->
+              <div class="card__meta"> <!-- Inicia área de preço e ação -->
+                <span>R$ 219,00</span> <!-- Exibe preço fictício do item -->
+                <button class="btn btn--outline">Encomendar</button> <!-- Exibe botão de encomenda -->
+              </div> <!-- Finaliza área de preço e ação -->
+            </div> <!-- Finaliza área de texto do card -->
+          </article> <!-- Finaliza card de produto -->
+
+          <article class="card"> <!-- Inicia card de produto -->
+            <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=900&q=80" alt="Conjunto de crochê azul" class="card__img"> <!-- Exibe imagem ilustrativa do produto -->
+            <div class="card__body"> <!-- Inicia área de texto do card -->
+              <h3>Conjunto Maré Azul</h3> <!-- Exibe nome da peça -->
+              <p>Conjunto com energia do mar ao entardecer em tons azulados suaves.</p> <!-- Exibe descrição curta da peça -->
+              <div class="card__meta"> <!-- Inicia área de preço e ação -->
+                <span>R$ 239,00</span> <!-- Exibe preço fictício do item -->
+                <button class="btn btn--outline">Encomendar</button> <!-- Exibe botão de encomenda -->
+              </div> <!-- Finaliza área de preço e ação -->
+            </div> <!-- Finaliza área de texto do card -->
+          </article> <!-- Finaliza card de produto -->
+
+          <article class="card"> <!-- Inicia card de produto -->
+            <img src="https://images.unsplash.com/photo-1562157873-818bc0726f68?auto=format&fit=crop&w=900&q=80" alt="Saída de praia em crochê" class="card__img"> <!-- Exibe imagem ilustrativa do produto -->
+            <div class="card__body"> <!-- Inicia área de texto do card -->
+              <h3>Saída Pôr do Sol</h3> <!-- Exibe nome da peça -->
+              <p>Saída de praia com detalhes artesanais em terracota e dourado suave.</p> <!-- Exibe descrição curta da peça -->
+              <div class="card__meta"> <!-- Inicia área de preço e ação -->
+                <span>R$ 199,00</span> <!-- Exibe preço fictício do item -->
+                <button class="btn btn--outline">Encomendar</button> <!-- Exibe botão de encomenda -->
+              </div> <!-- Finaliza área de preço e ação -->
+            </div> <!-- Finaliza área de texto do card -->
+          </article> <!-- Finaliza card de produto -->
+
+          <article class="card"> <!-- Inicia card de produto -->
+            <img src="https://images.unsplash.com/photo-1514995669114-6081e934b693?auto=format&fit=crop&w=900&q=80" alt="Chapéu artesanal em crochê" class="card__img"> <!-- Exibe imagem ilustrativa do produto -->
+            <div class="card__body"> <!-- Inicia área de texto do card -->
+              <h3>Chapéu Estrela do Mar</h3> <!-- Exibe nome da peça -->
+              <p>Chapéu feito à mão com caimento confortável e visual encantador.</p> <!-- Exibe descrição curta da peça -->
+              <div class="card__meta"> <!-- Inicia área de preço e ação -->
+                <span>R$ 129,00</span> <!-- Exibe preço fictício do item -->
+                <button class="btn btn--outline">Encomendar</button> <!-- Exibe botão de encomenda -->
+              </div> <!-- Finaliza área de preço e ação -->
+            </div> <!-- Finaliza área de texto do card -->
+          </article> <!-- Finaliza card de produto -->
+        </div> <!-- Finaliza grade responsiva dos cards -->
+      </div> <!-- Finaliza contêiner central da seção -->
+    </section> <!-- Finaliza a seção de catálogo -->
+
+    <section class="section reveal"> <!-- Inicia seção de galeria com animação -->
+      <div class="container"> <!-- Cria contêiner central da seção -->
+        <h2 class="section__title">Galeria de Fotos</h2> <!-- Exibe título da seção de fotos -->
+        <div class="gallery-grid"> <!-- Inicia grade moderna da galeria -->
+          <img src="https://images.unsplash.com/photo-1479064555552-3ef4979f8908?auto=format&fit=crop&w=900&q=80" alt="Detalhe de linha de crochê colorida"> <!-- Exibe foto da galeria -->
+          <img src="https://images.unsplash.com/photo-1589834390005-5d4fb9bf3d32?auto=format&fit=crop&w=900&q=80" alt="Peça artesanal sobre tecido claro"> <!-- Exibe foto da galeria -->
+          <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" alt="Modelo vestindo peça de crochê"> <!-- Exibe foto da galeria -->
+          <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=80" alt="Crochê com tons quentes ao sol"> <!-- Exibe foto da galeria -->
+          <img src="https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?auto=format&fit=crop&w=900&q=80" alt="Peças artesanais em composição boho"> <!-- Exibe foto da galeria -->
+          <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80" alt="Look artesanal delicado"> <!-- Exibe foto da galeria -->
+        </div> <!-- Finaliza grade da galeria -->
+      </div> <!-- Finaliza contêiner central da seção -->
+    </section> <!-- Finaliza seção de galeria -->
+
+    <section class="section reveal"> <!-- Inicia seção de vídeos com animação -->
+      <div class="container"> <!-- Cria contêiner central da seção -->
+        <h2 class="section__title">Vídeos das Peças em Crochê</h2> <!-- Exibe título da seção de vídeos -->
+        <div class="video-grid"> <!-- Inicia grade de vídeos responsiva -->
+          <div class="video-card"> <!-- Inicia card de vídeo incorporado -->
+            <iframe src="https://www.youtube.com/embed/2Vv-BfVoq4g" title="Vídeo de inspiração artesanal" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <!-- Incorpora vídeo do YouTube -->
+          </div> <!-- Finaliza card de vídeo incorporado -->
+          <div class="video-card"> <!-- Inicia card de vídeo local/externo -->
+            <video controls preload="metadata" poster="https://images.unsplash.com/photo-1456324463128-7ff6903988d8?auto=format&fit=crop&w=900&q=80"> <!-- Cria player de vídeo com capa -->
+              <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4"> <!-- Define fonte de vídeo em MP4 -->
+              Seu navegador não suporta vídeo HTML5. <!-- Exibe mensagem para navegadores antigos -->
+            </video> <!-- Finaliza player de vídeo -->
+          </div> <!-- Finaliza card de vídeo local/externo -->
+        </div> <!-- Finaliza grade de vídeos responsiva -->
+      </div> <!-- Finaliza contêiner central da seção -->
+    </section> <!-- Finaliza seção de vídeos -->
+
+    <section id="encomendar" class="section reveal"> <!-- Inicia seção de como encomendar com âncora -->
+      <div class="container steps"> <!-- Cria contêiner central com estilo de passos -->
+        <h2 class="section__title">Como Fazer Encomendas</h2> <!-- Exibe título da seção de encomendas -->
+        <ol> <!-- Inicia lista ordenada com passo a passo -->
+          <li>Escolha a peça que mais combina com sua energia no catálogo.</li> <!-- Exibe passo 1 -->
+          <li>Clique no botão <strong>Encomendar</strong> da peça desejada.</li> <!-- Exibe passo 2 -->
+          <li>Entre em contato pelo WhatsApp ou Instagram da marca.</li> <!-- Exibe passo 3 -->
+          <li>Informe cores, medidas e detalhes personalizados da sua criação.</li> <!-- Exibe passo 4 -->
+        </ol> <!-- Finaliza lista ordenada -->
+        <a href="#" class="btn btn--whatsapp" aria-label="Abrir conversa no WhatsApp">Falar no WhatsApp</a> <!-- Exibe botão fictício de WhatsApp -->
+      </div> <!-- Finaliza contêiner da seção -->
+    </section> <!-- Finaliza seção de como encomendar -->
+
+    <section id="sobre" class="section reveal"> <!-- Inicia seção sobre Beatriz com âncora -->
+      <div class="container about"> <!-- Cria contêiner central da seção sobre -->
+        <h2 class="section__title">Sobre a Be</h2> <!-- Exibe título da seção sobre -->
+        <p>Beatriz é uma jovem mística apaixonada pelo mar, pelo pôr do sol e pela beleza dos detalhes artesanais.</p> <!-- Exibe descrição pessoal da Beatriz -->
+        <p>Além do crochê, ela trabalha com tarot e transforma cada peça em uma criação com intenção, carinho e energia feminina.</p> <!-- Exibe conexão espiritual da marca -->
+        <p>Cada crochê é único, feito à mão para iluminar o dia a dia com aconchego e encanto.</p> <!-- Exibe proposta de valor das peças -->
+      </div> <!-- Finaliza contêiner da seção sobre -->
+    </section> <!-- Finaliza seção sobre -->
+  </main> <!-- Finaliza o conteúdo principal -->
+
+  <footer id="contato" class="footer"> <!-- Inicia rodapé com âncora de contato -->
+    <div class="container footer__content"> <!-- Cria contêiner central do rodapé -->
+      <div class="footer__social"> <!-- Inicia bloco de redes sociais -->
+        <a href="#" aria-label="Instagram">Instagram</a> <!-- Exibe link fictício do Instagram -->
+        <a href="#" aria-label="WhatsApp">WhatsApp</a> <!-- Exibe link fictício do WhatsApp -->
+        <a href="#" aria-label="TikTok">TikTok</a> <!-- Exibe link fictício do TikTok -->
+      </div> <!-- Finaliza bloco de redes sociais -->
+      <p class="footer__quote">“Entre fios, estrelas e marés, cada ponto carrega amor.”</p> <!-- Exibe frase inspiradora -->
+      <p class="footer__copy">© 2026 Crochê da Be. Todos os direitos reservados.</p> <!-- Exibe direitos autorais -->
+    </div> <!-- Finaliza contêiner central do rodapé -->
+  </footer> <!-- Finaliza rodapé -->
+
+  <script src="script.js"></script> <!-- Importa o arquivo JavaScript externo -->
+</body> <!-- Finaliza o conteúdo visível da página -->
+</html> <!-- Finaliza o documento HTML -->
