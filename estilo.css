@@ -238,14 +238,18 @@ body { /* Define estilos gerais do corpo do site */
   border: 1px solid rgba(143, 77, 69, 0.24); /* Adiciona contorno delicado */
   overflow: hidden; /* Garante que mídia respeite bordas arredondadas */
   box-shadow: 0 8px 20px rgba(63, 42, 40, 0.1); /* Aplica sombra suave */
+  height: 420px; /* trava a altura do card */
+  display: flex; /* impede redimensionamento estranho */
 } /* Finaliza estilo do card de vídeo */
 
-.video-card iframe, /* Seleciona iframe dentro do card de vídeo */
+
 .video-card video { /* Seleciona vídeo HTML5 dentro do card */
   width: 100%; /* Faz mídia ocupar toda largura do card */
-  min-height: 320px; /* Define altura mínima confortável */
+  height: 100%; /* ocupa todo o card */
   border: 0; /* Remove bordas padrão da mídia */
   display: block; /* Evita espaços extras abaixo da mídia */
+  object-fit: cover; /* faz o vídeo preencher sem esticar */
+  display: block;
 } /* Finaliza estilo das mídias */
 
 .steps { /* Estiliza caixa da seção de encomendas */
@@ -308,8 +312,13 @@ body { /* Define estilos gerais do corpo do site */
 
 .btn--whatsapp { /* Estiliza botão fictício de WhatsApp */
   background: linear-gradient(120deg, #34d163, #1f9f45); /* Usa gradiente verde característico */
-  color: #fff; /* Define texto branco para alta legibilidade */
+  color: #000000; /* Define texto branco para alta legibilidade */
 } /* Finaliza botão de WhatsApp */
+
+.btn--mercado { /* Estiliza botão fictício de mercado livre */
+  background: linear-gradient(120deg, #FFF176, #FFE600); /* Usa gradiente amarelo característico */
+  color: #000000; /* Define texto branco para alta legibilidade */
+} /* Finaliza botão de mercado livre */
 
 .footer { /* Define aparência do rodapé */
   background-color: #435c2f; /* Cor verde personalizada */
